@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trucos CSS</title>
+    <style>
+      .bloque {
+        width: 200px;
+        height: 200px;
+        background: mediumpurple;
+        margin: auto;
+      }
+      img {
+        width: 200px;
+        display: block;
+        margin: auto;
+      }
+      h1 {
+        margin: 20px;
+      }
+      h2 {
+        margin: 30px;
+      }
+      .prevenir-margin-collapse {
+        height: 1px;
+        background: red;
+      }
+      p {
+        text-align: center;
+        line-height: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <!--TRUCO 1-->
+    <span>Me gustan los gatos</span>
+    <br />
+    <span>Me gustan los pugs</span>
+
+    <!--TRUCO 2-->
+    <div class="bloque"></div>
+    <img src="p1.jpg" alt="es un gatito" />
+
+    <!--TRUCO 3-->
+    <h1>Hola mundo</h1>
+    <div class="prevenir-margin-collapse"></div>
+    <h2>Hola mundo 2</h2>
+    <!--TRUCO 4-->
+    <div class="bloque">
+      <p>Hola mundo 22</p>
+    </div>
+  </body>
+</html>
