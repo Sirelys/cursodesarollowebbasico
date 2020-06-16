@@ -99,7 +99,7 @@ p {
 .box-wrapper {
   display: inline-block;
   width: fit-content;
-  margin: 0 80px;
+  margin: 0 80 px;
 }
 
 .bloque {
